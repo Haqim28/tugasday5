@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <title>Creating Form, Navbar & Layouting</title>
+        <link rel="stylesheet" href="./assets/style/style.css">
+         <link rel="stylesheet" href="./assets/style/contact.css">
+         <script src="./form.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="left-side">
+                <img src="./assets/img/logo.png" alt="">
+                <div>
+                    <a href="index.html">Home</a>
+                    <a href="myProject.html">My Project</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <a href="contact.html">Contact Me</a>
+            </div>
+       </nav>
+        <div class="container">
+            <!---Create Form contact me-->
+            <form class="form-contact-me">
+
+                <!--Create Header Form Contact me-->
+                <div>
+                    <h1>Get In Touch</h1>
+                </div>
+
+                <!--Create Label and  Input for Name-->
+                <div>
+                    <label for="input-name" class="label-input">Name</label>
+                    <input id="input-name" type="text" placeholder="Write your name"/>
+                </div>
+                
+                <!-- Create Label and input for email-->
+                <div>
+                    <label for="input-email">Email</label>
+                    <input id="input-email" type="email"/>
+                </div>
+
+                <!-- Create Label and input for Phone Number-->
+                <div>
+                    <label for="input-phone">Phone Number</label>
+                    <input id="input-phone" type="tel"/>
+                </div>
+
+                <!-- Create Label and Choose for subject-->
+                <div>
+                    <label for="choose-subject">Subject</label>
+                    <select id="choose-subject">
+                        <option hidden>Choose Subject</option>
+                        <option>Let's Talk</option>
+                        <option>Let's Collaboration</option>
+                        <option>I am Hiring</option>
+                    </select>
+                </div>
+
+                <!-- Create Label and input text area for message-->
+                <div>
+                    <label for="input-message">Your Message</label>
+                    <textarea id="input-message" rows="5" placeholder="Write your message"></textarea>
+                </div>
+
+                <!-- Create button for submit-->
+                <button type="button" onclick="submitData()">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

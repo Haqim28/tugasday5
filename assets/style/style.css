@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+    background-color: gray;
+}
+.container {
+    height: 93vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+}
+
+/* ==== Main Page ==== */
+
+nav {
+    display: flex;
+    height: 7vh;
+    background-color: rgb(236, 236, 236);
+}
+
+nav .nav-aktif{
+    color:red;
+    text-decoration:bold;
+}
+nav div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side {
+    padding-left: 50px;
+}
+
+nav .left-side img {
+    margin-right: 40px;
+}
+
+nav .left-side a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav .right-side {
+    padding-right: 50px;
+    justify-content: end;
+}
+
+nav .right-side a {
+    text-decoration: none;
+    color: white;
+    background-color: orangered;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+/* ==== Main Page ==== */
+.wrapper {
+    width: 85%;
+    padding: 10;
+    display: flex;
+    margin: 0px 20px;
+}
+.wrapper{
+    background-color: white;
+    width: fit-content;
+}
+.wrapper .left-side {
+        flex: 70%;
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+
+.wrapper .right-side {
+    flex: 30%;
+    padding-left: 20px;
+    margin: auto;
+    width: fit-content;
+}
+
+.wrapper .left-side p{
+    text-align: justify;
+}
+.wrapper .right-side p {
+    color: gray;
+    margin: 0;
+    font-size: small;
+    align-content: center;
+}
+
+.wrapper .left-side a{
+    text-decoration:none;
+    color: rgb(65, 63, 63);
+}
+.wrapper .left-side .sosmed .sosmed-wrapper {
+    display: flex;
+}
+
+.wrapper .left-side button{
+    background-color: black;
+    font-size: 10px;
+    width: 80px;
+    height: 30px;
+    border-radius: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.wrapper .left-side .sosmed .sosmed-wrapper a {
+    color: black;
+}
+.contact-cv{
+    display: flex;
+}
+
+.contact-cv h5{
+    margin-left: 20px;
+}
+.icon{
+    background-color: black;
+    margin-top: 20px;
+}
+.sosmed-wrapper i {
+    color: white;
+}
+
+
+.wrapper .left-side .sosmed .icon {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.card{
+    margin: 0;
+    width: fit-content;
+    width: 200px; height: auto; margin: 25px; padding-bottom: 10px; text-align: center; margin-left: 100px; border-radius: 20px; border-color: white; background-color: rgb(194, 190, 185);
+}
+
+
+/* ==== Akhir Main Page ==== */

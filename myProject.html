@@ -1,0 +1,104 @@
+<html>
+    <head>
+    <title>MyProject</title>
+     <link rel="stylesheet" href="./assets/style/style.css">
+     <link rel="stylesheet" href="./assets/style/myProject.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     
+	</head>
+	<body>
+		<!--Create navigation -->
+		<nav>
+				<div class="left-side">
+					<img src="./assets/img/logo.png" alt="">
+					<div>
+						<a href="index.html">Home</a>
+						<a href="#"><span class="nav-aktif">My Project</span></a>
+					</div>
+				</div>
+				<div class="right-side">
+					<a href="contact.html">Contact Me</a>
+			</div>
+		</nav>
+		<!-- Form -->
+		<div class="project">
+		<!-- Project -->
+			<div class="project-form">
+				<div class="form-container">
+						<form name="project">
+							<h1>Add My Project</h1>
+							<div>
+								<label for="input-project-name">Project Name</label><br>
+								<input id="input-project-name" />
+							</div>
+							<div class="time-start-end">
+								<div class="time-start-left">
+									<label for="input-start-date">Start Date</label>
+									<input id="input-start-date" type="date"  >
+								</div>
+								<div class="time-end-right">
+									<label for="input-end-date">End Date</label>
+									<input id="input-end-date" type="date"  >
+								</div>
+							</div>              
+							<div>
+								<label for="input-description">Description</label>
+											<textarea id="input-description" rows="5" style="resize: none"></textarea>
+							</div>
+							<label >Technologies</label>
+							<div class="techno">
+								<div>
+									<input type="checkbox" name="technologi" id="techno-nodejs"  value="Nodejs" class="checkbox">
+								</div>
+								<div>
+									<label class="check" for="techno-nodejs"> Node Js</label>
+								</div>
+								<div>
+									<input type="checkbox" name="technologi" id="techno-nextjs"  value="Nextjs" class="checkbox">
+								</div>
+								<div>
+									<label class="check" for="techno-nextjs"> Next js</label>
+								</div>
+							</div>
+							<div class="techno">
+								<div>
+									<input type="checkbox" name="technologi" id="techno-reactjs"  value="Reactjs" class="checkbox">
+								</div>
+								<div>
+									<label for="techno-reactjs"> React Js</label>
+								</div>
+								<div>
+									<input type="checkbox"  name="technologi" id="techno-typescript"  value="Typescript" class="checkbox">
+								</div>
+								<div>
+									<label for="techno-typescript"> Typescript</label>	
+								</div>
+							</div>
+							<div>
+								<label>Upload Image</label>
+								<div class="upload-img-project-group">
+									<label for="upload-img">
+										<input type="file" id="upload-project-img" />
+										<img src="assets/img/file.png" alt="file" />
+									</label>
+								</div>
+							</div>
+							<div class="button-group">
+								<button type="button"  onclick="addProject()">Submit</button>
+							</div>	
+						</form>
+				</div>
+			</div>
+			<hr class="line" />
+			<div class="myproject">
+						<h1>My Project</h1>
+						<div id="contents" class="project-list">
+							<!-- dynamic content would be here -->
+						
+
+						</div>
+			</div>
+		</div>
+		<script src="./project.js"></script>
+	</body>
+</html>

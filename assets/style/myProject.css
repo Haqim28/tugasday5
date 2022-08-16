@@ -1,0 +1,223 @@
+
+/* ==== My Project ==== */
+
+.project-form{
+	padding: 50px 0;
+	display: flex;
+	justify-content: center;	
+}
+
+.project-form .form-container{
+	width: 500px;
+}
+
+
+.project-form .form-container h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.project-form .form-container form label{
+	font-size:20px;
+	font-weight:400;
+}
+
+.project-form form input, textarea, select{
+	width: 100%;
+	font-size: 20px;
+	font-weight: 400px;
+	padding: 8px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	background: #f4f3f3;
+	border: 1px solid #c4c4c4;
+	border-radius: 8px;
+}
+
+.project-form form textarea{
+	font-weight:20px;	
+}
+
+.project-form .time-start-end{
+	display:flex;
+}
+
+
+.techno{
+	display:flex;
+	width:70%;
+}
+.techno label{
+	font-size:5px;	
+	padding-left:20px;	
+}
+.techno input{
+	margin-left:20px;
+}
+
+.project-form form .upload-img-project-group{
+	width:100%;
+	font-size:20px;
+	font-weight:400px;
+	padding:8px;
+	margin-top:5px;
+	margin-bottom:20px;
+	background: #f4f3f3;
+	border: 1px solid #c4c4c4;
+	border-radius:8px;
+	cursor:pointer;
+}
+
+.project-form form .upload-img-project-group label p{
+	font-size:15px;
+}
+.project-form form .upload-img-project-group label img{
+	text-align:right;
+	justify-content:right;
+	
+}
+
+.project-form form .upload-img-project-group label{
+	cursor:pointer;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.project-form form .upload-img-project-group input{
+	width:90%;
+	border:none;
+	cursor:pointer;
+}
+
+
+.project-form form .button-group{
+	text-align: right;
+}
+
+.project-form form button{
+	margin-top:50px;
+	padding:8px 20px;
+	font-size:17px;
+	background:#ec4d37;
+	border-radius:8px;
+	border:none;
+	color:#fff;
+	cursor:pointer;
+
+}
+
+/* ==== Akhir Myproject ==== */
+
+
+
+/* ==== myproject list ==== */
+
+.myproject{
+    background-color: white;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+}
+.myproject h1{
+	text-align: center;
+}
+
+.name-project h1{
+    text-align: center;
+}
+.name-project h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+
+.duration,.description,.techno{
+	padding:0px 20px;
+}
+
+.project-list{
+	display:flex;
+	height:auto;
+	flex-wrap: wrap;
+    justify-content: start;
+    background-color: white;
+    width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+	
+    
+}
+
+.project-list-item{
+	border:1 px;
+	background-color:darkgrey;
+	width:300px;
+	border-radius:10px solid darkgrey ;	
+	border:solid 5px;
+	margin: 10px;
+	height:fit-content;
+	
+}
+
+.project-list-item .project-image img{
+	width:100%;
+	height:250px;
+}
+
+.description{
+	width:100%;
+	height:150px;
+
+}
+
+.description .desc2{
+	height:100%;
+	overflow: auto;
+	margin-right:20px;
+	padding-right:10px;
+
+}
+
+.project-list-item .project-content .description .desc2 p{
+	margin-top:10px;
+	text-align:justify;
+	width:100%;
+	height:100px;
+	font-size: 10px;
+	text-indent: 30px;
+}
+
+.project-list-item .project-content .group-button {
+	display:flex;
+}
+
+.project-list .project-list-item .project-content .duration {
+    font-size: 12px;
+}
+
+
+.project-list-item .project-content .group-button button{
+	background-color:gray;
+	color:white;
+	font-size:15px;
+	width:50%;
+}
+
+.group-button{
+	align-items: baseline;
+	width:100%;
+	margin-bottom:10px;
+}
+
+.group-button button{
+	border-radius:20px;
+	border-color:none;
+	cursor:pointer;
+}
+
+i {
+	font-size:30px;
+	margin:5px;
+}
+/* ==== Akhir Myprojectlist ==== */
